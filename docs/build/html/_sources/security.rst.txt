@@ -13,8 +13,3 @@ ACCORD Documentation
 Security
 ========
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`

@@ -13,6 +13,7 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
 
   
   
@@ -30,6 +31,8 @@
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
         <script src="_static/language_data.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -88,16 +91,22 @@
 <li><a class="reference internal" href="#how-do-i-use-accord">How do I use ACCORD?</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#projects">Projects</a></li>
+<li><a class="reference internal" href="#projects">Projects</a><ul>
+<li><a class="reference internal" href="#researchers">Researchers</a></li>
+<li><a class="reference internal" href="#data">Data</a></li>
+<li><a class="reference internal" href="#storage">Storage</a></li>
+<li><a class="reference internal" href="#computing-environemts">Computing Environemts</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#environments">Environments</a></li>
-<li><a class="reference internal" href="#id1">Security</a><ul>
+<li><a class="reference internal" href="#security">Security</a><ul>
 <li><a class="reference internal" href="#authentication">Authentication</a></li>
 <li><a class="reference internal" href="#encryption">Encryption</a></li>
 <li><a class="reference internal" href="#isolation">Isolation</a></li>
 <li><a class="reference internal" href="#private-environment-urls">Private Environment URLs</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#miscellania">Miscellania</a></li>
+<li><a class="reference internal" href="#the-accord-team">The ACCORD Team</a></li>
 </ul>
 </div>
             
@@ -164,49 +173,57 @@
            <div itemprop="articleBody">
             
   <div class="section" id="accord-documentation">
-<h1><a class="toc-backref" href="#id2">ACCORD Documentation</a><a class="headerlink" href="#accord-documentation" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id1">ACCORD Documentation</a><a class="headerlink" href="#accord-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#accord-documentation" id="id2">ACCORD Documentation</a></p></li>
-<li><p><a class="reference internal" href="#what-is-accord" id="id3">What is ACCORD?</a></p>
+<li><p><a class="reference internal" href="#accord-documentation" id="id1">ACCORD Documentation</a></p></li>
+<li><p><a class="reference internal" href="#what-is-accord" id="id2">What is ACCORD?</a></p>
 <ul>
-<li><p><a class="reference internal" href="#who-can-use-accord" id="id4">Who can use ACCORD?</a></p></li>
-<li><p><a class="reference internal" href="#how-do-i-use-accord" id="id5">How do I use ACCORD?</a></p></li>
+<li><p><a class="reference internal" href="#who-can-use-accord" id="id3">Who can use ACCORD?</a></p></li>
+<li><p><a class="reference internal" href="#how-do-i-use-accord" id="id4">How do I use ACCORD?</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#projects" id="id6">Projects</a></p></li>
-<li><p><a class="reference internal" href="#environments" id="id7">Environments</a></p></li>
-<li><p><a class="reference internal" href="#id1" id="id8">Security</a></p>
+<li><p><a class="reference internal" href="#projects" id="id5">Projects</a></p>
 <ul>
-<li><p><a class="reference internal" href="#authentication" id="id9">Authentication</a></p></li>
-<li><p><a class="reference internal" href="#encryption" id="id10">Encryption</a></p></li>
-<li><p><a class="reference internal" href="#isolation" id="id11">Isolation</a></p></li>
-<li><p><a class="reference internal" href="#private-environment-urls" id="id12">Private Environment URLs</a></p></li>
+<li><p><a class="reference internal" href="#researchers" id="id6">Researchers</a></p></li>
+<li><p><a class="reference internal" href="#data" id="id7">Data</a></p></li>
+<li><p><a class="reference internal" href="#storage" id="id8">Storage</a></p></li>
+<li><p><a class="reference internal" href="#computing-environemts" id="id9">Computing Environemts</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#miscellania" id="id13">Miscellania</a></p></li>
+<li><p><a class="reference internal" href="#environments" id="id10">Environments</a></p></li>
+<li><p><a class="reference internal" href="#security" id="id11">Security</a></p>
+<ul>
+<li><p><a class="reference internal" href="#authentication" id="id12">Authentication</a></p></li>
+<li><p><a class="reference internal" href="#encryption" id="id13">Encryption</a></p></li>
+<li><p><a class="reference internal" href="#isolation" id="id14">Isolation</a></p></li>
+<li><p><a class="reference internal" href="#private-environment-urls" id="id15">Private Environment URLs</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#the-accord-team" id="id16">The ACCORD Team</a></p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="what-is-accord">
-<span id="security"></span><h1><a class="toc-backref" href="#id3">What is ACCORD?</a><a class="headerlink" href="#what-is-accord" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id2">What is ACCORD?</a><a class="headerlink" href="#what-is-accord" title="Permalink to this headline">¶</a></h1>
 <p>ACCORD is a collaboration between the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.</p>
 <p>ACCORD is project-based, which means that investigators request access to the platform, create a project and populate it with co-investigators, import data, and finally create and use disposable computing resources to perform their computational research.</p>
 <div class="section" id="who-can-use-accord">
-<h2><a class="toc-backref" href="#id4">Who can use ACCORD?</a><a class="headerlink" href="#who-can-use-accord" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Who can use ACCORD?</a><a class="headerlink" href="#who-can-use-accord" title="Permalink to this headline">¶</a></h2>
 <p>lksjd flkjsd flksdj flksdj flksdjf lksdfj lskdfj sldkfj sdlkfj sdlfkj sdfl</p>
 </div>
 <div class="section" id="how-do-i-use-accord">
-<h2><a class="toc-backref" href="#id5">How do I use ACCORD?</a><a class="headerlink" href="#how-do-i-use-accord" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">How do I use ACCORD?</a><a class="headerlink" href="#how-do-i-use-accord" title="Permalink to this headline">¶</a></h2>
 <p>ACCORD is entirely web-based, which means that the primary software you need is a good, modern browser such as Chrome, Firefox, or Safari. Once you have created a project, you will use the ACCORD Console to create an environment in which to do your work.</p>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="projects">
-<h1><a class="toc-backref" href="#id6">Projects</a><a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id5">Projects</a><a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h1>
+<img alt="Projects" class="align-right" src="_images/projects.png" />
 <p>The fundamental organizing unit for your work in ACCORD is a project. Within this platform, a project consists of:</p>
 <ol class="upperalpha simple">
 <li><p><em>Researchers</em> - a group of approved collaborators.</p></li>
@@ -214,15 +231,37 @@
 <li><p><em>Storage</em> - storage within the infrastructure dedicated to your project.</p></li>
 <li><p><em>Computing Environments</em> - your choice from an approved library of web-based computing environments.</p></li>
 </ol>
-<p><strong>Researchers</strong> - must enroll in the ACCORD platform and be approved for entrance into your project. Once co-investigators are onboarded into the platform, PIs can add them
+<div class="section" id="researchers">
+<h2><a class="toc-backref" href="#id6">Researchers</a><a class="headerlink" href="#researchers" title="Permalink to this headline">¶</a></h2>
+<p>Must enroll in the ACCORD platform and be approved for entrance into your project. Once co-investigators are onboarded into the platform, PIs can add them
 to their project(s).</p>
-<p><strong>Data</strong> - can be managed using the Globus federated GridFTP platform. The ACCORD DTN (data transfer node) address can be found once you sign into the ACCORD Console.</p>
-<p><strong>Storage</strong> - 1TGB of storage will be allocated for each project by default. Additional storage can be purchased for a fee.</p>
-<p><strong>Computing Environemts</strong> - are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>Invite a Co-Investigator<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>Manage your Teams<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="data">
+<h2><a class="toc-backref" href="#id7">Data</a><a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p>Can be managed using the Globus federated GridFTP platform. The ACCORD DTN (data transfer node) address can be found once you sign into the ACCORD Console.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>Open Globus<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="storage">
+<h2><a class="toc-backref" href="#id8">Storage</a><a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h2>
+<p>1TGB of storage will be allocated for each project by default. Additional storage can be purchased for a fee.</p>
+</div>
+<div class="section" id="computing-environemts">
+<h2><a class="toc-backref" href="#id9">Computing Environemts</a><a class="headerlink" href="#computing-environemts" title="Permalink to this headline">¶</a></h2>
+<p>Environments are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>Open the ACCORD Console<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="environments">
-<h1><a class="toc-backref" href="#id7">Environments</a><a class="headerlink" href="#environments" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id10">Environments</a><a class="headerlink" href="#environments" title="Permalink to this headline">¶</a></h1>
 <img alt="Environments" class="align-right" src="_images/stacks-100.png" />
 <p>Environments consist of web-based, containerized interfaces launched on-demand by researchers. Approved environemnts and details about them are below.</p>
 <ul class="simple">
@@ -230,41 +269,44 @@ to their project(s).</p>
 <li><p><strong>Jupyter Notebok</strong> - Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code.</p></li>
 <li><p><strong>RStudio</strong> - The standard IDE for research using the R programming language. This environment is useful for generating plots and other R-based analysis.</p></li>
 </ul>
+<p>These computing environments can be used for short-lived, interactive, computing and analysis OR you can kick off a longer, more intensive job to run for hours. For longer
+runs, you may close your browser tab and return later, if so desired.</p>
 <p>While ACCORD is not a BYOC (Bring Your Own Container) environment, we welcome your suggestions for additional containers to be considered in the future.</p>
 </div>
 <hr class="docutils" />
-<div class="section" id="id1">
-<h1><a class="toc-backref" href="#id8">Security</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="security">
+<h1><a class="toc-backref" href="#id11">Security</a><a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h1>
+<img alt="Security" class="align-right" src="_images/security.png" />
 <div class="section" id="authentication">
-<h2><a class="toc-backref" href="#id9">Authentication</a><a class="headerlink" href="#authentication" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">Authentication</a><a class="headerlink" href="#authentication" title="Permalink to this headline">¶</a></h2>
 <p>ACCORD makes use of InCommon authentication, a federated SAML-based standard used by most institutions of higher education in the U.S. This means that ACCORD does not have its
 own user identity store but instead relies upon authentication via your home institution’s single sign-on tool.</p>
 </div>
 <div class="section" id="encryption">
-<h2><a class="toc-backref" href="#id10">Encryption</a><a class="headerlink" href="#encryption" title="Permalink to this headline">¶</a></h2>
-<p>All connectivity to ACCORD environments is encrypted using SSL certificates over HTTPS.</p>
+<h2><a class="toc-backref" href="#id13">Encryption</a><a class="headerlink" href="#encryption" title="Permalink to this headline">¶</a></h2>
+<p>All connectivity to ACCORD environments is encrypted using SSL certificates over HTTPS. Plain-text (unencrypted) access is prohibited.</p>
 </div>
 <div class="section" id="isolation">
-<h2><a class="toc-backref" href="#id11">Isolation</a><a class="headerlink" href="#isolation" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id14">Isolation</a><a class="headerlink" href="#isolation" title="Permalink to this headline">¶</a></h2>
 <p>ACCORD environments cannot, by design, have any access to other environments – including storage, network connectivity, or data. Environments run within isolated Kubernetes pods
 and their network connectivity is isolated and encrypted.</p>
 </div>
 <div class="section" id="private-environment-urls">
-<h2><a class="toc-backref" href="#id12">Private Environment URLs</a><a class="headerlink" href="#private-environment-urls" title="Permalink to this headline">¶</a></h2>
-<p><strong>[TO-DO]</strong> When you request an ACCORD environment, a unique HTTPS endpoint is created for you something like this:</p>
-<blockquote>
-<div><p><a class="reference external" href="https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/">https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/</a></p>
-</div></blockquote>
+<h2><a class="toc-backref" href="#id15">Private Environment URLs</a><a class="headerlink" href="#private-environment-urls" title="Permalink to this headline">¶</a></h2>
+<p><strong>[TO-DO]</strong> When you request an ACCORD environment, a unique HTTPS endpoint is created for you and <em>can only be used by you</em>. That URL will look something like:</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span>https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/
+</pre></div>
+</div>
 <p>Using certificate authentication from your browser (something you will set up the first time you use ACCORD and will renew annually), the platform
 verifies that you, and only you, access that environment. If you want to collaborate with a co-investigator, they can simply create an identical
 environment within the same project!</p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="miscellania">
-<h1><a class="toc-backref" href="#id13">Miscellania</a><a class="headerlink" href="#miscellania" title="Permalink to this headline">¶</a></h1>
-<p>The ACCORD project was designed and built by the <strong>Research Computing Group</strong> <a class="reference external" href="https://www.rc.virginia.edu/">https://www.rc.virginia.edu/</a> at the University of Virginia, under the coordination of the ACCORD Grant Project Manager
-Tho Nguyen (faculty, Computer Science) and Ron Hutchins, Vice Provost for Information Technology.</p>
+<div class="section" id="the-accord-team">
+<h1><a class="toc-backref" href="#id16">The ACCORD Team</a><a class="headerlink" href="#the-accord-team" title="Permalink to this headline">¶</a></h1>
+<p>The ACCORD project was designed and built by the <a class="reference external" href="https://www.rc.virginia.edu">Research Computing Group</a> at the <a class="reference external" href="https://www.virginia.edu/">University of Virginia</a>, under the coordination of the ACCORD Grant Project Manager
+<a class="reference external" href="https://vpit.virginia.edu/tho">Tho Nguyen</a> (faculty, Computer Science) and <a class="reference external" href="https://vpit.virginia.edu/">Ron Hutchins</a>, Vice Provost for Information Technology.</p>
 </div>
 
 

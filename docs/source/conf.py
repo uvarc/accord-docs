@@ -8,7 +8,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-
+import sphinx_copybutton
 
 # -- Project information -----------------------------------------------------
 
@@ -27,6 +27,7 @@ release = 'v1'
 # ones.
 extensions = [
   "sphinx_rtd_theme",
+  "sphinx_copybutton",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

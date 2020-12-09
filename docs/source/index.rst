@@ -31,6 +31,7 @@ How do I use ACCORD?
 
 ACCORD is entirely web-based, which means that the primary software you need is a good, modern browser such as Chrome, Firefox, or Safari. Once you have created a project, you will use the ACCORD Console to create an environment in which to do your work.
 
+-----
 
 Projects
 ========
@@ -51,6 +52,8 @@ to their project(s).
 
 **Computing Environemts** - are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.
 
+-----
+
 Environments
 ============
 
@@ -60,12 +63,13 @@ Environments
 
 Environments consist of web-based, containerized interfaces launched on-demand by researchers. Approved environemnts and details about them are below. 
 
-* **Theia Python** - A rich IDE that allows researchers to manage their files and data, write code with an intelligent editor, and execute code within a terminal session.
-* **Jupyter Notebok** - Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code.
-* **RStudio** - The standard IDE for research using the R programming language. This environment is useful for generating plots and other R-based analysis.
+- **Theia Python** - A rich IDE that allows researchers to manage their files and data, write code with an intelligent editor, and execute code within a terminal session.
+- **Jupyter Notebok** - Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code.
+- **RStudio** - The standard IDE for research using the R programming language. This environment is useful for generating plots and other R-based analysis.
 
 While ACCORD is not a BYOC (Bring Your Own Container) environment, we welcome your suggestions for additional containers to be considered in the future.
 
+-----
 
 Security
 ========
@@ -101,6 +105,7 @@ Using certificate authentication from your browser (something you will set up th
 verifies that you, and only you, access that environment. If you want to collaborate with a co-investigator, they can simply create an identical
 environment within the same project!
 
+-----
 
 Miscellania
 ========

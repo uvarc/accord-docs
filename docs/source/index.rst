@@ -1,12 +1,10 @@
-ACCORD 
+ACCORD
 ================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 .. contents::
-
-A Collaborative Computing Environment for Highly Sensitive Data
 
 What is ACCORD?
 ===============

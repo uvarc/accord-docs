@@ -1,14 +1,10 @@
-=====================
 ACCORD
-=====================
-
-A Collaborative Computing Environment for Highly Sensitive Data
+================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 .. contents::
-
 
 What is ACCORD?
 ===============

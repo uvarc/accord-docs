@@ -11,6 +11,7 @@ ACCORD Documentation
    :caption: Contents:
 .. contents::
 
+.. _security:
 
 What is ACCORD?
 ===============
@@ -41,6 +42,15 @@ The fundamental organizing unit for your work in ACCORD is a project. Within thi
 (C) *Storage* - storage within the infrastructure dedicated to your project.
 (D) *Computing Environments* - your choice from an approved library of web-based computing environments.
 
+**Researchers** - must enroll in the ACCORD platform and be approved for entrance into your project. Once co-investigators are onboarded into the platform, PIs can add them
+to their project(s).
+
+**Data** - can be managed using the Globus federated GridFTP platform. The ACCORD DTN (data transfer node) address can be found once you sign into the ACCORD Console.
+
+**Storage** - 1TGB of storage will be allocated for each project by default. Additional storage can be purchased for a fee.
+
+**Computing Environemts** - are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.
+
 Environments
 ============
 
@@ -48,7 +58,14 @@ Environments
    :alt: Environments
    :align: right
 
-asdlfkjasldfk sdlfk jelkfj sdlkfj sdlkfjsd lfkj sdlfkjs dflkjsd flksj 
+Environments consist of web-based, containerized interfaces launched on-demand by researchers. Approved environemnts and details about them are below. 
+
+* **Theia Python** - A rich IDE that allows researchers to manage their files and data, write code with an intelligent editor, and execute code within a terminal session.
+* **Jupyter Notebok** - Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code.
+* **RStudio** - The standard IDE for research using the R programming language. This environment is useful for generating plots and other R-based analysis.
+
+While ACCORD is not a BYOC (Bring Your Own Container) environment, we welcome your suggestions for additional containers to be considered in the future.
+
 
 Security
 ========
@@ -59,10 +76,12 @@ Authentication
 ACCORD makes use of InCommon authentication, a federated SAML-based standard used by most institutions of higher education in the U.S. This means that ACCORD does not have its
 own user identity store but instead relies upon authentication via your home institution's single sign-on tool.
 
+
 Encryption
 ----------
 
 All connectivity to ACCORD environments is encrypted using SSL certificates over HTTPS. 
+
 
 Isolation
 ---------
@@ -74,7 +93,7 @@ and their network connectivity is isolated and encrypted.
 Private Environment URLs
 ------------------------
 
-[TODO] When you request an ACCORD environment, a unique HTTPS endpoint is created for you something like this:
+**[TO-DO]** When you request an ACCORD environment, a unique HTTPS endpoint is created for you something like this:
 
     https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/
 
@@ -83,8 +102,8 @@ verifies that you, and only you, access that environment. If you want to collabo
 environment within the same project!
 
 
-Project Silos
--------------
+Miscellania
+========
 
-alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr 
-
+The ACCORD project was designed and built by the **Research Computing Group** https://www.rc.virginia.edu/ at the University of Virginia, under the coordination of the ACCORD Grant Project Manager
+Tho Nguyen (faculty, Computer Science) and Ron Hutchins, Vice Provost for Information Technology.

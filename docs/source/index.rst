@@ -44,20 +44,44 @@ The fundamental organizing unit for your work in ACCORD is a project. Within thi
 Environments
 ============
 
+.. image:: _static/images/stacks-100.png
+   :alt: Environments
+   :align: right
+
 asdlfkjasldfk sdlfk jelkfj sdlkfj sdlkfjsd lfkj sdlfkjs dflkjsd flksj 
 
 Security
 ========
 
+Authentication
+--------------
+
+ACCORD makes use of InCommon authentication, a federated SAML-based standard used by most institutions of higher education in the U.S. This means that ACCORD does not have its
+own user identity store but instead relies upon authentication via your home institution's single sign-on tool.
+
 Encryption
 ----------
 
-blkasd flksjd flksdjf lsdkfj alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr 
+All connectivity to ACCORD environments is encrypted using SSL certificates over HTTPS. 
 
-Unshareable Links
------------------
+Isolation
+---------
 
-alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr alskjdf lkwejr lsdkjf welkjs dlfkjwe rlkjsd flksejr 
+ACCORD environments cannot, by design, have any access to other environments -- including storage, network connectivity, or data. Environments run within isolated Kubernetes pods
+and their network connectivity is isolated and encrypted.
+
+
+Private Environment URLs
+------------------------
+
+[TODO] When you request an ACCORD environment, a unique HTTPS endpoint is created for you something like this:
+
+    https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/
+
+Using certificate authentication from your browser (something you will set up the first time you use ACCORD and will renew annually), the platform
+verifies that you, and only you, access that environment. If you want to collaborate with a co-investigator, they can simply create an identical
+environment within the same project!
+
 
 Project Silos
 -------------

@@ -44,6 +44,10 @@ The fundamental organizing unit for your work in ACCORD is a project. Within thi
 Environments
 ============
 
+.. image:: _static/images/stacks-100.png
+   :alt: Environments
+   :align: right
+
 asdlfkjasldfk sdlfk jelkfj sdlkfj sdlkfjsd lfkj sdlfkjs dflkjsd flksj 
 
 Security

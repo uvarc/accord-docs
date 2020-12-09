@@ -1,15 +1,17 @@
-ACCORD
-================================================
+ACCORD: Collaborative Research Computing on Sensitive Data
+=============================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
 .. contents::
+
 
 What is ACCORD?
 ===============
 
-ACCORD is a collaboration between the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.
+ACCORD is a collaboration across the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.
 
 ACCORD is project-based, which means that investigators request access to the platform, create a project and populate it with co-investigators, import data, and finally create and use disposable computing resources to perform their computational research.
 
@@ -133,5 +135,5 @@ environment within the same project!
 The ACCORD Team
 ===============
 
-The ACCORD project was designed and built by the `Research Computing Group <https://www.rc.virginia.edu>`_ at the `University of Virginia <https://www.virginia.edu/>`_, under the coordination of the ACCORD Grant Project Manager
+The ACCORD project was designed and built by the `Research Computing Group <https://www.rc.virginia.edu>`_ at the `University of Virginia <https://www.virginia.edu/>`_, under the coordination of the ACCORD Grant Program Manager
 `Tho Nguyen <https://vpit.virginia.edu/tho>`_ (faculty, Computer Science) and `Ron Hutchins <https://vpit.virginia.edu/>`_, Vice Provost for Information Technology.

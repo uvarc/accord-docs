@@ -1,10 +1,8 @@
-.. ACCORD Documentation documentation master file, created by
-   sphinx-quickstart on Wed Dec  9 13:20:23 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+=====================
+ACCORD
+=====================
 
-ACCORD Documentation
-================================================
+A Collaborative Computing Environment for Highly Sensitive Data
 
 .. toctree::
    :maxdepth: 2
@@ -51,16 +49,12 @@ Researchers
 Must enroll in the ACCORD platform and be approved for entrance into your project. Once co-investigators are onboarded into the platform, PIs can add them
 to their project(s).
 
-.. code-block:: html
-
     <button>Invite a Co-Investigator</button>
     <button>Manage your Teams</button>
 
 Data
 ------
 Can be managed using the Globus federated GridFTP platform. The ACCORD DTN (data transfer node) address can be found once you sign into the ACCORD Console.
-
-.. code-block:: html
 
     <button>Open Globus</button>
 
@@ -71,8 +65,6 @@ Storage
 Computing Environemts
 ---------------------
 Environments are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.
-
-.. code-block:: html
 
     <button>Open the ACCORD Console</button>
 

@@ -1,12 +1,5 @@
 ACCORD: Collaborative Research Computing on Sensitive Data
 =============================================================
-ACCORD is a collaboration across the public universities of Virginia
-to build and share cyberinfrastructure for research on highly sensitive 
-data. Made possible by a grant from the National Science Foundation, 
-ACCORD attempts to provide a service for institutions that may lack the 
-financial, staffing, or technical resources to support such a platform. 
-This project strives to be a repeatable model for other institutions 
-across the United States.
 
 .. contents::
 
@@ -36,15 +29,24 @@ across the United States.
 
 -----
 
-What is ACCORD?
+What is it?
 -----------------
 
-ACCORD is a collaboration across the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.
+ACCORD is a collaboration across the public universities of Virginia
+to build and share cyberinfrastructure for research on highly sensitive 
+data. Made possible by a grant from the National Science Foundation, 
+ACCORD attempts to provide a service for institutions that may lack the 
+financial, staffing, or technical resources to support such a platform. 
+This project strives to be a repeatable model for other institutions 
+across the United States.
 
-ACCORD is project-based, which means that investigators request access to the platform, create a project and populate it with co-investigators, import data, and finally create and use disposable computing resources to perform their computational research.
+ACCORD is project-based, which means that investigators request access 
+to the platform, create a project and populate it with co-investigators, 
+import data, and then create and use disposable computing environments 
+to perform their computational research.
 
 
-Who can use ACCORD?
+Who can use it?
 -------------------
 
 This platform is open for approved academic research on highly sensitive data. Researchers from
@@ -54,7 +56,7 @@ ACCORD can meet HIPAA, FERPA, and other less-restrictive data sensitivity requir
 restrictive levels, such as CUI, FISMA, PCI cannot be satisfied.
 
 
-How do I use ACCORD?
+How do I use it?
 -----------------------
 
 ACCORD is entirely web-based, which means that the primary software you need is a good, modern 
@@ -68,7 +70,7 @@ ACCORD offers no SSH, Terminal, FTP, Remote Desktop, or VNC access.
 
 -----
 
-The ACCORD Team
+Who runs it?
 ------------------
 
 The ACCORD project was designed and built by the `Research Computing Group <https://www.rc.virginia.edu>`_ at the `University of Virginia <https://www.virginia.edu/>`_, under the coordination of the ACCORD Grant Program Manager

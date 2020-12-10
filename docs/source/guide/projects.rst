@@ -21,7 +21,7 @@ single unit.
 In the case of ACCORD, the computing environment you used is completely independent of your personnel, data, and storage. This means
 that you can create and use a variety of environments depending on your research needs on any given day.
 
-(D) *Computing Environments* - your choice from an approved library of web-based computing environments.
+Computing Environments are created from an approved library of web-based computing environments.
 
 
 Researchers

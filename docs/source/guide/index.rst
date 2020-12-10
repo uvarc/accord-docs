@@ -5,15 +5,41 @@ User Guide
    :maxdepth: 2
 
 
-Who can use ACCORD?
+
+Request Access
+------------------
+asdlfj welkfj sdlkfj weflk
+
+
+Create a Project
+------------------
+sldkf sdlkfj sdlfk jsdfl
+
+
+Add Team Members
+---------------------------
+asdflksjd flkjw flkds jflksdjf lsdkfj lsdfk
+
+
+Transfer Data
 -------------------
+asldkfjsldkfjsdlfkjsdflksdj lksdj flksdj f
 
-asldkfj sldkfjs lekjf sdlkfj sdlkfjs dlfksdj fl
 
-Getting Access
----------------
+Manage Environments
+-------------------------
+1. Creating an Environment
+2. Viewing the status of an environment
+3. Terminating an environment
+4. Replicating an environment
 
-ACCORD is a collaboration across the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.
+Connect to an Environment
+-------------------------------
+asdlfjjskdfl ksdjf lsdkjf sldkfj sdlkf
 
-ACCORD is project-based, which means that investigators request access to the platform, create a project and populate it with co-investigators, import data, and finally create and use disposable computing resources to perform their computational research.
 
+Software Requirements
+-------------------------
+1. A modern web browser such as Chrome, Firefox, Safari, or Edge.
+2. OPSWAT
+3. Create and install an authentication certificate

@@ -16,6 +16,12 @@ across the United States.
 
 
 .. toctree::
+   :maxdepth: 2
+
+   guide/environments
+
+
+.. toctree::
    :maxdepth: 3
 
    guide/index
@@ -24,13 +30,8 @@ across the United States.
 .. toctree::
    :maxdepth: 2
 
-   guide/environments
-
-
-.. toctree::
-   :maxdepth: 2
-
    guide/security
+
 
 -----
 
@@ -72,9 +73,3 @@ The ACCORD Team
 The ACCORD project was designed and built by the `Research Computing Group <https://www.rc.virginia.edu>`_ at the `University of Virginia <https://www.virginia.edu/>`_, under the coordination of the ACCORD Grant Program Manager
 `Tho Nguyen <https://vpit.virginia.edu/tho>`_ (faculty, Computer Science) and `Ron Hutchins <https://vpit.virginia.edu/>`_, Vice Provost for Information Technology.
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`

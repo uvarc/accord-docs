@@ -4,12 +4,16 @@ Environments
 .. toctree::
    :maxdepth: 2
 
+.. contents::
+
 .. image:: ../_static/images/stacks-100.png
    :alt: Environments
    :align: right
 
 Environments consist of web-based, containerized interfaces launched on-demand by researchers. Approved environemnts 
-and details about them are below. 
+and details about them are below. ACCORD strives to use rich, well-supported, usable container images with quality
+documentation  and healthy user communities supporting them.
+
 
 Theia Python
 -----------------
@@ -19,15 +23,22 @@ code within a terminal session.
 .. image:: ../_static/images/theia-screenshot.jpg
    :alt: Theia IDE
    :align: center
+   :width: 80%
 
-Jupyter Notebok
+Learn more about the `Theia Python IDE <https://theia-ide.org/>`_
+
+Jupyter Lab
 ----------------------
 Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code in 
 numerous languages including Python, R, Julia, bash, etc.
 
 .. image:: ../_static/images/jupyter_sample.png
-   :alt: Jupyter Notebook
+   :alt: Jupyter Lab
    :align: center
+   :width: 80%
+
+Learn more about `Jupyter Lab <https://jupyter.org/>`_
+
 
 RStudio
 ----------------
@@ -37,6 +48,9 @@ other R-based analysis.
 .. image:: ../_static/images/rstudio_example.png
    :alt: Jupyter Notebook
    :align: center
+   :width: 80%
+
+Learn more about `RStudio <https://rstudio.com/>`_
 
 
 Runtimes & Limitations

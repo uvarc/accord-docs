@@ -8,6 +8,7 @@ financial, staffing, or technical resources to support such a platform.
 This project strives to be a repeatable model for other institutions 
 across the United States.
 
+.. contents::
 
 .. toctree::
    :maxdepth: 2
@@ -36,7 +37,7 @@ across the United States.
 -----
 
 What is ACCORD?
-===============
+-----------------
 
 ACCORD is a collaboration across the public universities of Virginia to build and share cyberinfrastructure for research on highly sensitive data. Made possible by a grant from the National Science Foundation, ACCORD attempts to provide a service for institutions that may lack the financial, staffing, or technical resources to support such a platform. This project strives to be a repeatable model for other institutions across the United States.
 
@@ -57,18 +58,18 @@ How do I use ACCORD?
 -----------------------
 
 ACCORD is entirely web-based, which means that the primary software you need is a good, modern 
-browser such as Chrome, Firefox, or Safari. Once you have created a project, you will use the 
+browser such as Chrome, Firefox, Edge or Safari. Once you have created a project, you will use the 
 ACCORD Console to create an environment in which to do your work.
 
 Most ACCORD environments are IDEs (Integrated Development Environment) or interactive code-data
 platforms in wide use.
 
-ACCORD has no SSH, Remote Desktop, or VNC access.
+ACCORD offers no SSH, Terminal, FTP, Remote Desktop, or VNC access.
 
 -----
 
 The ACCORD Team
-===============
+------------------
 
 The ACCORD project was designed and built by the `Research Computing Group <https://www.rc.virginia.edu>`_ at the `University of Virginia <https://www.virginia.edu/>`_, under the coordination of the ACCORD Grant Program Manager
 `Tho Nguyen <https://vpit.virginia.edu/tho>`_ (faculty, Computer Science) and `Ron Hutchins <https://vpit.virginia.edu/>`_, Vice Provost for Information Technology.

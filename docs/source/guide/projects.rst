@@ -33,10 +33,13 @@ Co-investigators must also enroll in the ACCORD platform and gain approval.
 Once co-investigators are onboarded into the platform, PIs can add them
 to their project(s).
 
-    <button>Invite a Co-Investigator</button>
-    <button>Manage your Teams</button>
+.. raw:: html
 
-ACCORD makes no distinction between various project personnel when assigning permissions. 
+    <button class="btn-accord">Invite a Co-Investigator</button>
+    <button class="btn-accord">Manage your Team</button>
+
+
+ACCORD user access is non-hierarchical and makes no distinction between various project personnel when granting permissions. 
 All project members have equal access to project data, i.e. there is no priviledged user or access for any given project.
 
 Data
@@ -52,5 +55,9 @@ Computing Environemts
 ---------------------
 Environments are containerized web interfaces created on-demand for you to use with your project data and code. Environments cannot span two projects at the same time.
 
-    <button>Open the ACCORD Console</button>
+Learn more about `ACCORD Computing Environments <environments.html>`_
+
+.. raw:: html
+
+    <button class="btn-accord">Open the ACCORD Console</button>
 

@@ -1,5 +1,8 @@
 Security
 ==========
+
+.. contents::
+
 ACCORD can meet HIPAA, FERPA, and other less-restrictive data sensitivity requirements. 
 More restrictive levels, such as CUI, FISMA, PCI cannot be satisfied. A list of compliance
 will be released as the platform nears production launch.

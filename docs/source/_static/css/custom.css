@@ -12,3 +12,20 @@ h3 {font-size:120%;}
   font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
   border-radius:3px;
 }
+ul li {
+  margin-bottom:0px;
+  margin-top:0px;
+}
+ol li {
+  margin-bottom:0px;
+  margin-top:0px;
+}
+.rst-content .section ol li>*, .rst-content .section ul li>* {
+  margin-bottom:0px;
+  margin-top:0px;
+}
+.simple li p {
+  margin-bottom:12px;
+  margin-top:0px;
+  line-height:20px;
+}

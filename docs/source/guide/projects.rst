@@ -14,8 +14,6 @@ The fundamental organizing unit for your work in ACCORD is a project. Within thi
 (B) *Data* - source and results data that you bring to the project. Data import/export is managed by Globus transfers.
 (C) *Storage* - storage within the infrastructure dedicated to your project.
 
-.. note::
-
 Most research computing platforms strongly associate projects with a specific computing environment. For example,
 a VM (virtual machine) is a dedicated computing resource with storage, data, and user access bundled together into a 
 single unit.

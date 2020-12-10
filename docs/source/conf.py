@@ -12,7 +12,7 @@ import sphinx_copybutton
 
 # -- Project information -----------------------------------------------------
 
-project = 'ACCORD Documentation'
+project = 'ACCORD Collaborative Research Computing on Sensitive Data'
 copyright = '2020 UVA Research Computing'
 author = 'UVA Research Computing'
 

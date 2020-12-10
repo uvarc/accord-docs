@@ -14,6 +14,10 @@ Theia Python
 -----------------
 A rich IDE that allows researchers to manage their files and data, write code with an intelligent editor, and execute code within a terminal session.
 
+.. image:: ../_static/images/theia-screenshot.jpg
+   :alt: Theia IDE
+   :align: center
+
 Jupyter Notebok
 ----------------------
 Allows for interactive, notebook-based analysis of data. A good choice for pulling quick results or refining your code.
@@ -27,4 +31,3 @@ runs, you may close your browser tab and return later, if so desired.
 
 While ACCORD is not a BYOC (Bring Your Own Container) environment, we welcome your suggestions for additional containers to be considered in the future.
 
------

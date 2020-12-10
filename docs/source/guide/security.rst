@@ -16,6 +16,21 @@ higher education in the U.S. This means that ACCORD does not have its own user i
 relies upon authentication via your home institution's single sign-on tool.
 
 
+Authorization
+--------------
+
+ACCORD manages user access and permissioning non-hierarchically. All members of a project have equal access
+to the data storage for that project, without any privileged superuser or root. Access Management is controlled
+by normal POSIX groups defined by COmanage, a collaborative IAM tool from the National Science Foundation.
+
+
+Closed Environemnts
+---------------------
+
+ACCORD environments have no outbound connectivity to the Internet other than whitelisted library and tool 
+repositories (yum, PyPi, CPAN, CRAN). Connections to tools such as GitHub and external APIs are disallowed.
+
+
 Encryption
 ----------
 
@@ -24,17 +39,18 @@ Plain-text (unencrypted) access is prohibited.
 
 Data at rest is also encrypted within ACCORD storage systems.
 
-Isolation
----------
+
+Pod Isolation
+------------------
 
 ACCORD environments cannot, by design, have any access to other environments -- including storage, 
-network connectivity, or data. Environments run within isolated Kubernetes pods and their (overlyay)
+network connectivity, or data. Environments run within isolated Kubernetes pods and their (overlay)
 network connectivity is isolated and encrypted. The cluster control plane is also encrypted for management
 and requests.
 
 
 Private Environment URLs
-------------------------
+--------------------------
 
 **[TO-DO]** When you request an ACCORD environment, a unique HTTPS endpoint is created for you and 
 *can only be used by you*. That URL will look something like:
@@ -42,7 +58,6 @@ Private Environment URLs
 .. code-block:: html
    
    https://jupyter-notebook-1a2b3c4d5e-mst3k.uvarc.io/
-
 
 These environments cannot be shared.
 

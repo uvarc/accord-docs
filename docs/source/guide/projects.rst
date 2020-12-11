@@ -4,6 +4,10 @@ Projects
 .. toctree::
    :maxdepth: 2
 
+.. contents::
+
+-----
+
 .. image:: ../_static/images/projects.png
    :alt: Projects
    :align: right

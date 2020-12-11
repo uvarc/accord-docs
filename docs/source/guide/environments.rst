@@ -6,6 +6,8 @@ Environments
 
 .. contents::
 
+-----
+
 .. image:: ../_static/images/stacks-100.png
    :alt: Environments
    :align: right

@@ -6,6 +6,7 @@ User Guide
 .. toctree::
    :maxdepth: 2
 
+-----
 
 Access
 --------
@@ -14,22 +15,25 @@ Request Access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 User onboarding is a multi-step process:
 
-1. A PI self-registers using an online form.
+1. A PI requests access using an online form and explaining their project. Some documentation will be required
+at this point, including a description of the project data, its level of sensitivity, the anticipated scope
+of computing for the project, and any supplemental information such as IRB approval, etc.
 
 .. raw:: html
 
     <button class="btn-accord">Request Access</button>
 
-2. If the PI is from an institution that is new to ACCORD, an MOU/contract with your institution and UVA will need to be established.
-3. Once that is in place, or for subsequent PIs, the project application will be reviewed and approved/declined.
-4. Once approved a user will confirm their email and complete additional profile registration steps.
-5. When registration is complete the user will be notified by email. They can then create a project.
+2. The project application will be reviewed and approved/declined.
+2. If approved and a PI is from an institution that is new to ACCORD, an MOU/contract between their home institution 
+and UVA will need to be established.
+3. The approved project, under institutional contract, can now be fulfilled.
+4. The PI will confirm their email and complete final registration steps.
+5. When registration is complete the user will be notified by email. Their project will now be created.
 
 
 Create a Project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Principal Investigators (PIs) can create a new, empty project using the ACCORD Console. This action
-triggers three processes behind the scenes:
+The creation of a project triggers three processes behind the scenes:
 
 1. Creates a new system group with the PI as both a member and owner.
 2. Creates a new 1TB project storage share within ACCORD cluster storage.

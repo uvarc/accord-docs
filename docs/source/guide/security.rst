@@ -3,6 +3,8 @@ Security
 
 .. contents::
 
+-----
+
 ACCORD can meet HIPAA, FERPA, and other less-restrictive data sensitivity requirements. 
 More restrictive levels, such as CUI, FISMA, PCI cannot be satisfied. A list of compliance
 will be released as the platform nears production launch.
@@ -33,14 +35,16 @@ Closed Environemnts
 ACCORD environments have no outbound connectivity to the Internet other than whitelisted library and tool 
 repositories (yum, PyPi, CPAN, CRAN). Connections to tools such as GitHub and external APIs are disallowed.
 
+We are considering implementing a local source control tool in the future.
+
 
 Encryption
 ----------
 
-All connectivity to ACCORD environments is encrypted using SSL certificates over HTTPS. 
+All connectivity to ACCORD environments is encrypted using SSL over HTTPS. 
 Plain-text (unencrypted) access is prohibited. 
 
-Data at rest is also encrypted within ACCORD storage systems.
+Data transfers in/out via the Globus DTN meet FIPS 140-2 compliance.
 
 
 Pod Isolation

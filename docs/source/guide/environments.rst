@@ -64,7 +64,5 @@ Runtimes & Limitations
 - While environments cannot be "paused" their configuration can easily be repeated.
 - Environments are bound to 16 cores / 48GB of memory / 1TB of cluster storage.
 - Outbound access to the Internet is restricted to package and library mirrors such as pip, PyPi, CPAN, CRAN, etc.
-
-While ACCORD is not a BYOC (Bring Your Own Container) environment, we welcome your suggestions for additional containers 
-to be considered in the future.
+- ACCORD is not a BYOC (Bring Your Own Container) environment, but we welcome your suggestions for additional containers to be considered in the future.
 

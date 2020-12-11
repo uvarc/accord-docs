@@ -3,6 +3,7 @@ About ACCORD
    
 .. contents:: 
 
+-----
 
 What is it?
 -----------------

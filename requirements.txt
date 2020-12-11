@@ -1,3 +1,4 @@
 sphinx-rtd-theme
 sphinx-copybutton
 sphinx-markdown
+readthedocs-sphinx-search

@@ -7,6 +7,11 @@ ACCORD is a collaboration across the public universities of Virginia to build an
 .. toctree::
    :maxdepth: 2
 
+   demo
+
+.. toctree::
+   :maxdepth: 2
+
    about
 
 .. toctree::

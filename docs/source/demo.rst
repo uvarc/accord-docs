@@ -10,8 +10,7 @@ How to access ACCORD
 
 To preview the ACCORD platform, all you need is a browser. 
 
-Open a tab to **https://accord.uvarc.io/**
-
+Open a tab to `**https://accord.uvarc.io/** <https://accord.uvarc.io>`_
 
 How do I use it?
 -----------------------
